@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS `work_times`;
+CREATE TABLE `work_times` (
+  `id` INTEGER NOT NULL AUTO_INCREMENT,
+  `start` TEXT NOT NULL,
+  `end` TEXT NOT NULL,
+  `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+);
